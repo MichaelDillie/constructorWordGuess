@@ -1,3 +1,5 @@
+var inquirer = require('inquirer');
+
 function Letter(letter) {
     this.isGuessed = false;
     this.letter = letter;
